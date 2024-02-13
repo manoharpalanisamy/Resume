@@ -1,0 +1,305 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Manohar Palanisamy} \\ \vspace{6pt}
+    \small \raisebox{-0.1\height}\faPhone\  +91-7619198038 ~
+     \href{mailto:manohar.palanisamy@icloud.com}{\raisebox{-0.2\height}\faEnvelope\ \textcolor{MidnightBlue}{\underline{manoharpalanisamy@icloud.com}}} ~ 
+     \href{https://decodeai.in/}{\raisebox{-0.2\height}\faUser\ \textcolor{MidnightBlue}{\underline{www.decodeai.in}}} ~
+    \href{https://linkedin.com/in/manoharpalanisamy}{\raisebox{-0.2\height}\faLinkedin\ \textcolor{MidnightBlue}{\underline{linkedin.com/in/manoharpalanisamy}}}  ~
+   
+\end{center}
+
+
+%-----------EXPERIENCES-----------
+\section{WORK EXPERIENCES}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Senior Associate - Machine learning}{Current -- Dec 2018}
+      {Tata Consultancy Services - Contractor }{Bangalore}
+      \resumeItemListStart
+
+    \resumeItem{
+    Collaborate with data scientists to seamlessly integrate these models into existing systems and applications.
+    }
+    \resumeItem{
+    Maintain the optimization of code for peak performance, ensuring the reliability of machine learning applications.
+    }
+    
+        \resumeItem{Responsible for developing scalable and efficient software solutions, deploying machine learning models in production.}
+        
+\resumeItem{
+Stay informed about best practices in software development and
+meticulously implement them within ML workflows as part of my roles and responsibilities.
+}
+        
+        
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Executive Software Developer}{Jan 2017 -- Dec 2018}
+      {QuantumLink Communications Pvt Ltd}{Mumbai}
+      \resumeItemListStart
+      \resumeItem{
+      Developed a research-based web application called FieldSense. This project involved creating a Salesforce tracking system to monitor salesperson activities.
+      }
+      \resumeItem{
+Responsible for handling feature enhancement and \textit{bug }fixing related to our products which also included understanding the requirements and preparing design documents and Impact Analysis.}
+
+\resumeItem{
+Worked on an email system with full knowledge of network and email protocols, ensuring timely delivery and quality, all in line with the client's quality standards.
+}
+        \resumeItem{Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.}
+
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+    \item{
+        \textbf{ML Model And Algorithms:} Linear Regression, Logistic Regression, SVM, KNN, Naive Bayes, Decision Tree, Gradient Descent, SGD, minibatch GD, Adam etc. \\
+        \vspace{0.15cm}
+        \textbf{Artificial Neural Networks:} Perceptron, MLP, CNN, RNN, LSTM, GRU, BRNN, Autoencoders, GAN, Residual Net \\
+        \vspace{0.15cm}
+        \textbf{Coding Skills:} Scripting and web development including Python (NumPy, scikit-learn) , Java, C, JSP, Servlets, Spring Framework, HTML5, CSS3, JavaScript, Ajax, jQuery, Bootstrap3, REST API, HTTP Server, Mail protocols and DNS server \\
+        \vspace{0.15cm}
+
+        \textbf{Deep Learning Frameworks:} TensorFlow, Keras, PyTorch \\
+        \vspace{0.15cm}
+        \textbf{Data Manipulation:} Pandas, NumPy \\
+        \vspace{0.15cm}
+        \textbf{Data Visualization:} Matplotlib, Seaborn \\
+        \vspace{0.15cm}
+        \textbf{Natural Language Processing:} NLTK (Natural Language Toolkit), spaCy \\
+        \vspace{0.15cm}
+        \textbf{Model Evaluation:} Cross-validation, ROC curve analysis, Confusion matrix, Grid search, Hyperparameter tuning \\
+        \vspace{0.15cm}
+        \textbf{Deployment:} Docker, Kubernetes, Vercel, CloudflareCDN \\
+        \vspace{0.15cm}
+        \textbf{Cloud Platforms:} AWS (Amazon SageMaker, EC2, S3) \\
+        \vspace{0.15cm}
+        \textbf{Big Data Technologies:} Apache Spark, Hadoop, MapReduce, Pig, Hive \\
+        \vspace{0.15cm}
+        \textbf{Software Development:} Agile methodology, Continuous Integration/Continuous Deployment (CI/CD), GitHub Actions \\
+        \vspace{0.15cm}
+        \textbf{Database Management:} MySQL, MongoDB \\
+        \vspace{0.15cm}
+        \textbf{Version Control:} Git \\
+        \vspace{0.15cm}
+    }
+    }
+\end{itemize}
+
+
+%-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {Generative AI with Large Language Models \textcolor{MidnightBlue}{\fontsize{9}{11}\selectfont{\href{https://coursera.org/verify/MAVEJZ9P9AV5}{[MAVEJZ9P9AV5]}}}}{Sep 2021 -- Feb 2022}{DeepLearning.AI, Amazon Web Services}{Coursera.org}
+    \resumeSubheading
+            {Deep Learning Specialization \textcolor{MidnightBlue}{\fontsize{9}{11}\selectfont{\href{https://coursera.org/verify/WFUWAE7JQ924}{[WFUWAE7JQ924]}}}}{Sep 2021 -- Feb 2022}{DeepLearning.AI}{Coursera.org}
+    \resumeSubheading
+        {Applied AI with DeepLearning \textcolor{MidnightBlue}{\fontsize{9}{11}\selectfont{\href{https://coursera.org/verify/DRENBUK43NW8}{[DRENBUK43NW8]}}}}{Sep 2021 -- Feb 2022}{IBM}{Coursera.org}
+    \resumeSubheading
+        {Machine Learning \textcolor{MidnightBlue}{\href{https://coursera.org/verify/WFUWAE7JQ924}{{\fontsize{9}{11}\selectfont[WFUWAE7JQ924]}}}}{Sep 2021 -- Feb 2022}{Stanford University}{Coursera.org}
+\resumeSubHeadingListEnd
+
+\vspace{0.1cm}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+      {\textbf{\href{http://project.decodeai.in}{\textcolor{MidnightBlue}{Image Classifier}}} $|$ \emph{Python, FastAI , Render}} {\href{http://project.decodeai.in}{\textcolor{MidnightBlue}{Live}}}
+          \resumeItemListStart
+            \resumeItem{Developed an advanced image classifier using the ResNet50 neural network architecture from the Fastai deep learning library.}
+            \resumeItem{Trained the model to classify images of Marvel Heroes into 12 distinct classes.}
+            \resumeItem{Leveraged the powerful capabilities of Fastai for efficient training and model evaluation.}
+           \resumeItem{Hosted the final trained model on Render, making it accessible via the web at  \href{http://project.decodeai.in}{\color{MidnightBlue}{https://project.decodeai.in}}}
+           \resumeItemListEnd
+    
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{\href{https://github.com/send2manoo/Image-Classification}{\textcolor{MidnightBlue}{Automate to Extraction of Screen Shots from Photos}}} $|$ \emph{Python, NumPy, Keras}}{July 2018}
+        \resumeItemListStart
+            \resumeItem{Trained a Convolutional Neural Network (CNN) model to automate the extraction of screen shot files from photo albums.}
+            \resumeItem{Developed a Python script (extract.py) to execute the extraction process.}
+            \resumeItem{Used Keras' data augmentation pipeline to train the model, which was trained on approximately 1200 images.}
+        \resumeItemListEnd
+
+            
+
+                \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/send2manoo/Distributed-Deep-Learning}{\textcolor{MidnightBlue}{Distributed Deep Learning with Horovod and MPI}}} $|$ \emph{Python, Horovod, MPI}}{May 2018}
+          \resumeItemListStart
+            \resumeItem{This project focuses on speeding up deep learning training by distributing the workload across multiple computers.}
+            \resumeItem{It uses Horovod, a tool for distributed training, and MPI, a communication protocol. By doing this, we can train models faster and use computing resources more efficiently.}
+            \resumeItem{ Through this project, I learned how to use advanced tools to make deep learning training faster and more scalable.}
+          \resumeItemListEnd 
+        
+    \resumeSubHeadingListEnd
+
+%
+
+%-----------TECH BLOG---------------
+\section{PERSONAL BLOG}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+         {\textbf{\href{https://www.decodeai.in}{\textcolor{MidnightBlue}{www.decodeai.in}}} $|$ \emph{Jekyll, Cloudflare, Vercel, GitHub, ImageKit.io, Ackee Analytics}} {\href{https://www.decodeai.in}{\textcolor{MidnightBlue}{Live}}}
+        \resumeItemListStart
+            \resumeItem{Regularly publish articles on machine learning, deep learning, and other technology-related topics.}
+            \resumeItem{Cover a wide range of subjects, including tutorials, guides, and insights into the latest developments in the field.}
+            \resumeItem{Provide valuable resources and insights to fellow tech enthusiasts and learners.}
+            \resumeItem{Engage with readers through comments, discussions, and feedback.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS---------------
+\section{PUBLICATION}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Fake Account Eliminator}{March 2015}{National Conference on Engineering Applications for Developing Smart Cities - NCEADS}{}
+            \resumeItemListStart
+                \resumeItem{This software is designed to find and remove fake accounts on platforms like Facebook, Gmail, and Twitter in India.}
+                \resumeItem{It uses the UIDAI (Unique Identification Authority of India) as a key part of its operation.}
+                \resumeItem{India has many fake users on social media and email, so this tool helps to identify and eliminate them. It enforces a rule where each person can only have one account, reducing problems for real users and the public.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Engineering in Computer Science }{Sep 2012 -- May 2016}
+      {Dhirajlal Gandhi College of Technology, Anna University}{Salem, Tamilnadu}
+  \resumeSubHeadingListEnd
+  
+\end{document}
