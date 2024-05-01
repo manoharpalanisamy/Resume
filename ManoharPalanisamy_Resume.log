@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.10)  17 APR 2024 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.10)  1 MAY 2024 14:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -407,12 +407,7 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 260--262
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 270--272
-[]  
- []
-
-
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 286--288
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 280--282
 []  
  []
 
@@ -421,13 +416,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[2]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[3] (./ManoharPalanisamy_Resume.aux)
+[2] (./ManoharPalanisamy_Resume.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -435,18 +424,18 @@ Package rerunfilecheck Info: File `ManoharPalanisamy_Resume.out' has not changed
 (rerunfilecheck)             Checksum: B3B896CC045D67921A2CE51784C52407;745.
  ) 
 Here is how much of TeX's memory you used:
- 13682 strings out of 476025
- 239882 string characters out of 5790017
+ 13681 strings out of 476025
+ 239876 string characters out of 5790017
  1877388 words of memory out of 5000000
  33957 multiletter control sequences out of 15000+600000
  520009 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,448b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ManoharPalanisamy_Resume.pdf (3 pages, 168780 bytes).
+Output written on ManoharPalanisamy_Resume.pdf (2 pages, 167658 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
- 11 named destinations out of 1000 (max. 500000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
