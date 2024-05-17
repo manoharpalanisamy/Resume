@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.10)  1 MAY 2024 14:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.10)  17 MAY 2024 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -380,7 +380,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 141.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 231--233
+Overfull \hbox (126.51283pt too wide) in alignment at lines 232--232
+[] [] 
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 232--234
 []  
  []
 
@@ -397,7 +402,7 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 241--243
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 250--252
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 251--253
 []  
  []
 
@@ -407,7 +412,7 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 260--262
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 280--282
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 281--283
 []  
  []
 
@@ -426,16 +431,16 @@ Package rerunfilecheck Info: File `ManoharPalanisamy_Resume.out' has not changed
 Here is how much of TeX's memory you used:
  13681 strings out of 476025
  239876 string characters out of 5790017
- 1877388 words of memory out of 5000000
+ 1876388 words of memory out of 5000000
  33957 multiletter control sequences out of 15000+600000
  520009 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,448b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ManoharPalanisamy_Resume.pdf (2 pages, 167658 bytes).
+Output written on ManoharPalanisamy_Resume.pdf (2 pages, 168703 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 125 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
